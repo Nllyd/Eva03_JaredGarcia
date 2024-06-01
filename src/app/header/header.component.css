@@ -1,0 +1,26 @@
+.header {
+    background-color: rgba(0, 0, 255, 0.671); /* Azul con 50% de transparencia */
+    padding: 1rem 0;
+    color: white;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo {
+    height: 60px; /* Ajusta el tamaño de la imagen según sea necesario */
+}
+
+.header .links {
+    display: flex;
+}
+
+.header .links a {
+    text-decoration: none;
+    color: white; /* Color de texto blanco */
+    font-family: Arial, sans-serif; /* Fuente Arial */
+    margin-right: 10px; /* Espacio entre los enlaces */
+}
